@@ -976,7 +976,7 @@ contract CatFantasyCoin is ERC20, Ownable {
 
     constructor() ERC20("CAT FANTASY COIN", "CFC") {
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(
-            0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506
+            0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );
         // CREATE A UNISWAP PAIR FOR THIS NEW TOKEN
         uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
