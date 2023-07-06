@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Etherscan.io on 2023-02-25
-*/
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -967,7 +963,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 contract CatFantasyCoin is ERC20, Ownable {
 
     uint256 public transactionFeeRate = 5; // 5% transaction fee on buy and sell
-    address public taxCollectionWallet = 0xE4f28743bA98c2B659B559c7fb91d276ed471443;
+    address public taxCollectionWallet = 0x292c1D3a36C2fb9b850D6d32E9b8B7BD1D61d752;
     
     IUniswapV2Router02 public immutable uniswapV2Router;
     address public immutable uniswapV2Pair;
